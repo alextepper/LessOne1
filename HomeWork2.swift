@@ -22,7 +22,7 @@ func divBy(_ number: Int, _ divBy: Int) -> Bool {
     return isEven
 }
 
-// Функция убирающая из массива числа, делящиеся на задданый делитель
+// Функция убирающая из массива числа, делящиеся на задданый делитель.
 
 func removeExtra(_ arrayIn: [Int],_  divider: Int) -> [Int] {
     var arrayOut: [Int] = []
